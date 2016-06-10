@@ -1,0 +1,257 @@
+.container{
+    width: 800px;
+    margin: auto;
+}
+
+
+.img-guitarra-1{
+	width:360px;
+	position: relative;
+    top: -120px;
+    float: right;
+    margin-right: 23px;
+}
+
+.img-guitarra-2{
+	width:400px;
+	position: relative;
+	top: 0px;
+    float: left;
+}
+
+.menu{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	margin-top: 20px;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.menu li:before{
+  content: '∘';
+  font-size: 50px;
+  line-height: 20px;
+  color: white;
+}
+
+.menu a {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.logo{
+  display: inline-block;
+  margin-left: 0;
+}
+
+.header {
+  position: relative;
+}
+
+.portada-2{
+	height: 115px;
+	background-image: url("../images/background.png");
+	  background-size: cover;
+
+}
+
+.portada{
+	height: 500px;
+	background-image: url("../images/background.png");
+	  background-size: cover;
+
+}
+
+body{
+	margin:0;
+}
+
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.h1-main{
+	    color: white;
+    font-size: 79px;
+        margin-bottom: 9px;
+}
+
+.subtitulo{
+    color: white;
+    font-size: 26px;
+    margin-top: 0px;
+}
+
+.button{
+	border: none;
+    border-radius: 12px;
+    background: linear-gradient(to left, #fe344e, #ff7250);
+    padding: 10px;
+    cursor: auto;
+}
+
+a.button{
+	color: white;
+	text-decoration: none;
+}
+
+h2{
+	font-size: 43px;
+}
+
+.acustica{
+	margin-top: 30px;
+	border: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.classic{
+	margin-top: 30px;
+	border: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+        margin-bottom: 20px;
+}
+
+.h3-guitarra{
+	padding-left: 20px;
+    font-size: 45px;
+    color: #243845;
+    font-weight: bold;
+}
+
+.h3-guitarra-2{
+	padding-left: 20px;
+    font-size: 45px;
+    color: #243845;
+    font-weight: bold;
+}
+
+ol{
+	margin-bottom: 23px;
+}
+
+.guitarra-2{
+	    margin-left: 370px;
+    position: relative;
+    bottom: 90px;
+}
+
+
+
+.footer{
+	background-color: #000;
+ 	padding-top: 16px;
+    padding-bottom: 23px;
+}
+
+.contacto {
+
+  display: flex;
+  width: 296px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contacto img {
+  display: block;
+}
+
+.contacto strong {
+  display: block;
+}
+
+.contacto a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+}
+
+label{
+	color:white;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formulario {
+  display: flex;
+  width: 413px;
+  color: white;
+}
+
+
+.col1, .col2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col1 {
+  margin-right: 15px;
+}
+.col2 {
+  align-items: flex-start;
+}
+
+.col2 .button {
+  margin-top: 15px;
+}
+
+.intereses label {
+  font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses {
+  margin-bottom: 10px;
+}
+
+
+.sexo {
+  margin-top: 10px;
+}
+
+table{
+	width: 100%;
+	margin: 36px 0 36px 0;
+}
+
+th{
+	background: #273b47;
+	color: white;
+	text-align: left;
+}
+
+td{
+	padding: 20px
+}
+
+th{
+	padding: 13px;
+}
+
+table, td, th{
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+}
+
+.invie{
+	text-decoration: underline;
+}
+
+input, textarea{
+	outline: 0;
+}
+
+input:focus, textarea:focus{
+	background-color: lightgray;
+}
